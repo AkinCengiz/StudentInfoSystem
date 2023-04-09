@@ -10,27 +10,29 @@
             <th>ID</th>
             <th>AD</th>
             <th>SOYAD</th>
+            <th>KULÜP</th>
+            <th>CİNSİYET</th>
             <th>TELEFON</th>
             <th>MAİL</th>
+            <th>FOTOĞRAF</th>
             <th>ŞİFRE</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-        </tr>
-        <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-        </tr>
-        <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-        </tr>
+            <asp:Repeater ID="Repeater1" runat="server">
+                <ItemTemplate>
+                    <tr>
+                        <td><%#Eval("OgrID") %></td>
+                        <td><%#Eval("OgrAd") %></td>
+                        <td><%#Eval("OgrSoyad") %></td>
+                        <td><%#Eval("OgrKulup") %></td>
+                        <td><%#Eval("OgrCinsiyet") %></td>
+                        <td><%#Eval("OgrTelefon") %></td>
+                        <td><%#Eval("OgrMail") %></td>
+                        <td><%#Eval("OgrSifre") %></td>
+                    </tr>
+                </ItemTemplate>
+            </asp:Repeater>
         </tbody>
     </table>
 </asp:Content>
