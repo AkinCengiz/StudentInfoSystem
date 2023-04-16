@@ -40,5 +40,6 @@
         </asp:Repeater>
         </tbody>
     </table>
+    <asp:HyperLink ID="HyperLink1" NavigateUrl="AddNote.aspx" runat="server" CssClass="btn btn-info">Not Ekle</asp:HyperLink>
 </asp:Content>
 

@@ -35,9 +35,6 @@
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li><a href="Default.aspx"><i class="glyphicon glyphicon-list"></i>Öğrenci Listele</a></li>
                             <li><a href="AddStudent.aspx"><i class="glyphicon glyphicon-plus"></i>Öğrenci Ekle</a></li>
-                            <li><a href="UpdateStudent.aspx"><i class="glyphicon glyphicon-refresh"></i>Öğrenci Güncelle</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-erase"></i>Öğrenci Sil</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-search"></i>Öğrenci Bul</a></li>
                         </ul>
                     </li>
                     <li>
@@ -63,9 +60,6 @@
                         <ul class="collapse list-unstyled" id="homeSubmenu2">
                             <li><a href="Announcement.aspx"><i class="glyphicon glyphicon-list"></i>Duyuru Listele</a></li>
                             <li><a href="AddAnnouncement.aspx"><i class="glyphicon glyphicon-plus"></i>Duyuru Ekle</a></li>
-                            <li><a href="UpdateStudent.aspx"><i class="glyphicon glyphicon-refresh"></i>Duyuru Güncelle</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-erase"></i>Duyuru Sil</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-search"></i>Duyuru Bul</a></li>
                         </ul>
                     </li>
                     <li>
@@ -81,7 +75,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="Graphics.aspx">
+                        <a href="#">
                             <i class="glyphicon glyphicon-stats"></i>
                             Grafikler
                         </a>
